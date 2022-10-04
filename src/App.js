@@ -16,15 +16,15 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />}/>
+        <Route path="/register" element={<Register />} />
         <Route path="/booking" element={<Booking />} />
 
         {/* admin */}
         <Route path="/adminlogin" element={<Adminlogin />} />
-        <Route path='/dashboardadmin' element={<Dashboard />}/>
+        <Route path='/dashboardadmin' element={<Dashboard />} />
 
-        <Route path='/dashboardadmin/account' element={<DataGridDemo />}/>
-        <Route path='/dashboardadmin/datban' element={<Bookinginfo />}/>
+        <Route path='/dashboardadmin/account' element={<DataGridDemo />} />
+        <Route path='/dashboardadmin/datban' element={<Bookinginfo />} />
       </Routes>
     </div>
 )};
