@@ -2,10 +2,9 @@ import React from 'react'
 import NavbarAdmin from '../NavbarAdmin/NavbarAdmin'
 import ManageList from '../ManageList/ManageList'
 import Box from '@mui/material/Box';
-import { DataGrid, GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
-import { ThumbUpOffAltOutlined } from '@mui/icons-material';
+import { DataGrid } from '@mui/x-data-grid';
 
-const columns: GridColDef[] = [
+const GridColDe = [
     { field: 'id', headerName: 'ID', width: 90 },
     {
       field: 'fullname',
@@ -59,14 +58,14 @@ const columns: GridColDef[] = [
 
 const Bookinginfo = () => {
   return (
-    <div>
+    <div className="app__bgad">
       <NavbarAdmin />
       <div className='maincore'>
         <ManageList />
         <Box sx={{ background: 'yellow', borderRadius: '7px', marginLeft: 1.5, height: 400, width: '100%' }}>
         <DataGrid
           rows={rows}
-          columns={columns}
+          columns={GridColDe}
           pageSize={5}
           rowsPerPageOptions={[6]}
           checkboxSelection

@@ -1,16 +1,15 @@
 import React from 'react'
 import './dashboard.css'
-import DataGridDemo from './Account/Account'
 import ManageList from './ManageList/ManageList'
 import NavbarAdmin from './NavbarAdmin/NavbarAdmin'
-
+import Catagory from './catagory/Catagory'
 const Dashboard = () => {
   return (
-    <div>
+    <div className='app__bgad' >
       <NavbarAdmin />
       <div className='maincore'>
         <ManageList />
-        <DataGridDemo className="userad"/>
+        <Catagory className="userad"/>
       </div>
     </div>
   )

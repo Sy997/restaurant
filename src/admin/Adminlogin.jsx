@@ -29,7 +29,7 @@ const Adminlogin = () => {
 
     <div className='adminlogin app__bgr_admin flex__center'>
         <form className='formDn__admin flex__center'>
-            <h1 className='headtext'>Đăng nhập {`->`} Admin</h1>
+            <h1 className='headtext'>Đăng nhập Admin</h1>
             <div className='inpEm'>
                 <label className='p__opensans' htmlFor="outlined-basic">Email hoặc số điện thoại</label>
                 <TextField style={{width: '400px'}} className='email' id="outlined-basic" type='email' placeholder='Email hoặc số điện thoại' variant="outlined" onChange={(e) => setUsername(e.target.value)} />
