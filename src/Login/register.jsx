@@ -4,8 +4,6 @@ import './register.css'
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import { Link, TextField } from '@mui/material';
 import { Button } from '@mui/material'
-import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
-import { Password } from '@mui/icons-material';
 import { Navigate  } from 'react-router-dom'
 const Register = () => {
 

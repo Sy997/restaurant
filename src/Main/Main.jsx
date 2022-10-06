@@ -12,7 +12,7 @@ import { Navbar } from '../components'
 
 const Main = () => {
   return (
-    <div style={{transitionDelay: '1s'}}>
+    <div>
         <Navbar />
         <Header />
         <AboutUs />
