@@ -43,7 +43,7 @@ const Login = () => {
                 <Link style={{marginLeft: '6.5rem'}} to='./forget'>Quên mật khẩu?</Link>
             </div>
             <div className='buttoncheck'>
-                <Button onClick={handleClick} style={{width: '400px'}} variant="contained">Contained</Button>
+                <Button onClick={handleClick} style={{width: '400px'}} variant="contained">Đăng nhập</Button>
             </div>
             <div className='bandaco_tk'>
                 <p style={{marginRight: '2rem', marginLeft: '7.8rem'}}>Bạn đã có tài khoản?</p>
