@@ -22,7 +22,7 @@ const Navbar = () => {
       </ul>
       <div className='app__navbar-login'>
         <div className='flex__center' style={{marginRight: '5rem'}}>
-          <Link to="./login" style={{textDecoration: 'none'}} className='p__opensans'>Đăng nhập</Link>
+          <Link to="./login" style={{textDecoration: 'none', textAlign:'inline'}} className='p__opensans'>Đăng nhập</Link>
           <Link to="./register" style={{textDecoration: 'none'}} className='p__opensans'>Đăng kí</Link>
         </div>
         <Link to='/booking' style={{textDecoration: 'none'}} className='p__opensans'>Đặt bàn</Link>

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './booking.css'
 import Box from '@mui/material/Box';
-import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
@@ -19,7 +18,7 @@ const Booking = () => {
   const handleClick = (e) => {
     e.preventDefault()
 
-    alert('Đặt bàn thành công' + <br /> + 'Địa chỉ bạn đặt là: ' + chinh + ' hình thức tiệc là: ' + loait + ' Thời gian bạn đã đặt: ' + time + ' Số lượng bạn muốn đặt là: ' + sol + ' Họ Tên của bạn là: ' + hoten + ' Số điện thoại: ' + sdt)
+    alert('Đặt bàn thành công' + " " + 'Địa chỉ bạn đặt là: ' + chinh + ' hình thức tiệc là: ' + loait + ' Thời gian bạn đã đặt: ' + time + ' Số lượng bạn muốn đặt là: ' + sol + ' Họ Tên của bạn là: ' + hoten + ' Số điện thoại: ' + sdt)
   }
 
   return (
