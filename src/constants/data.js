@@ -180,4 +180,142 @@ const userAdmin = [
   },
 ]
 
-export default { wines, beer, awards, chinhanhs, loaitiecs, userAdmin };
+const tieccuoi = [
+  {
+    classify: 'Vip'
+    cost: '350.000.000Vnđ'
+    sales: '250.000.000Vnđ'
+  },
+  {
+    classify: 'Vip 2'
+    cost: '320.000.000Vnđ'
+    sales: '230.000.000Vnđ'
+  },
+  {
+    classify: 'Trung binh'
+    cost: '300.000.000Vnđ'
+    sales: '200.000.000Vnđ'
+  },
+  {
+    classify: 'Thường'
+    cost: '200.000.000Vnđ'
+    sales: '150.000.000Vnđ'
+  },
+]
+
+const tiecsinhnhat = [
+  {
+    classify: 'Vip'
+    cost: '200.000.000Vnđ'
+    sales: '150.000.000Vnđ'
+  },
+  {
+    classify: 'Vip 2'
+    cost: '199.000.000Vnđ'
+    sales: '99.000.000Vnđ'
+  },
+  {
+    classify: 'Trung binh'
+    cost: '150.000.000Vnđ'
+    sales: '69.000.000Vnđ'
+  },
+  {
+    classify: 'Thường'
+    cost: '100.000.000Vnđ'
+    sales: '50.000.000Vnđ'
+  },
+]
+
+const tiecgiatien = [
+  {
+    classify: 'Vip'
+    cost: '200.000.000Vnđ'
+    sales: '150.000.000Vnđ'
+  },
+  {
+    classify: 'Vip 2'
+    cost: '199.000.000Vnđ'
+    sales: '99.000.000Vnđ'
+  },
+  {
+    classify: 'Trung binh'
+    cost: '150.000.000Vnđ'
+    sales: '69.000.000Vnđ'
+  },
+  {
+    classify: 'Thường'
+    cost: '100.000.000Vnđ'
+    sales: '50.000.000Vnđ'
+  },
+]
+
+const tiecdaythang = [
+  {
+    classify: 'Vip'
+    cost: '200.000.000Vnđ'
+    sales: '150.000.000Vnđ'
+  },
+  {
+    classify: 'Vip 2'
+    cost: '199.000.000Vnđ'
+    sales: '99.000.000Vnđ'
+  },
+  {
+    classify: 'Trung binh'
+    cost: '150.000.000Vnđ'
+    sales: '69.000.000Vnđ'
+  },
+  {
+    classify: 'Thường'
+    cost: '100.000.000Vnđ'
+    sales: '50.000.000Vnđ'
+  },
+]
+
+const tiecmungtho = [
+  {
+    classify: 'Vip'
+    cost: '200.000.000Vnđ'
+    sales: '150.000.000Vnđ'
+  },
+  {
+    classify: 'Vip 2'
+    cost: '199.000.000Vnđ'
+    sales: '99.000.000Vnđ'
+  },
+  {
+    classify: 'Trung binh'
+    cost: '150.000.000Vnđ'
+    sales: '69.000.000Vnđ'
+  },
+  {
+    classify: 'Thường'
+    cost: '100.000.000Vnđ'
+    sales: '50.000.000Vnđ'
+  },
+]
+
+const tiecngoaitroi = [
+  {
+    classify: 'Vip'
+    cost: '200.000.000Vnđ'
+    sales: '150.000.000Vnđ'
+  },
+  {
+    classify: 'Vip 2'
+    cost: '199.000.000Vnđ'
+    sales: '99.000.000Vnđ'
+  },
+  {
+    classify: 'Trung binh'
+    cost: '150.000.000Vnđ'
+    sales: '69.000.000Vnđ'
+  },
+  {
+    classify: 'Thường'
+    cost: '100.000.000Vnđ'
+    sales: '50.000.000Vnđ'
+  },
+]
+
+export default { wines, beer, awards, chinhanhs, loaitiecs, userAdmin,tiecngoaitroi,tiecmungtho ,tiecdaythang, tiecdaythang,tiecsinhnhat, tieccuoi };
