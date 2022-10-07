@@ -1,122 +1,96 @@
 import React from "react"
 import Navbar from "../Navbar/Navbar"
+import images from './images'
+import data from './data'
 
 const Details = () => {
   rerurn (
     <div className="datails">
     <Navbar />
     <div className"tieccuois">
+    {data.tieccuois.map((kind) =>
       <div className="tieccuoi">
-        <img src="" alt="">
-        <span>Phòng vip</span>
+        <img src={imges.cuoi1} alt="">
+        <span>Phòng {kind.classify}</span>
         <div className="price">
-          <p style={{textDecoration:"through-line"}}>250.000.000Vnđ</p>
-          <p>169.000.000Vnđ</p>
+          <p style={{textDecoration:"through-line"}}>{kind.cost}</p>
+          <p>{kind.sales}</p>
         </div>
       </div>
-      <div className="tieccuoi">
-        <img src="" alt="">
-        <span>Phòng vip 2</span>
-        <div className="price">
-          <p style={{textDecoration:"through-line"}}>230.000.000Vnđ</p>
-          <p>150.000.000Vnđ</p>
-        </div>
-      </div>
-      <div className="tieccuoi">
-        <img src="" alt="">
-        <span>Phòng trung bình</span>
-        <div className="price">
-          <p style={{textDecoration:"through-line"}}>200.000.000Vnđ</p>
-          <p>130.000.000Vnđ</p>
-        </div>
-      </div>
-      <div className="tieccuoi">
-        <img src="" alt="">
-        <span>Phòng trung bình 2</span>
-        <div className="price">
-          <p style={{textDecoration:"through-line"}}>200.000.000Vnđ</p>
-          <p>125.000.000Vnđ</p>
-        </div>
-      </div>
-      <div className="tieccuoi">
-        <img src="" alt="">
-        <span>Phòng thường</span>
-        <div className="price">
-          <p style={{textDecoration:"through-line"}}>160.000.000Vnđ</p>
-          <p>100.000.000Vnđ</p>
-        </div>
-      </div>
+      )}
     </div>
     <div className="sinhnhats">
+      {data.tieccuois.map((kind) =>
       <div className="sinhnhat">
-        <img src="" alt="">
-        <span>Phòng vip</span>
+        <img src={images.bir1} alt="">
+        <span>Phòng {data.classify}</span>
         <div className="price">
-          <p style={{textDecoration:"through-line"}}>50.000.000Vnđ</p>
-          <p>39.000.000Vnđ</p>
+          <p style={{textDecoration:"through-line"}}>{data.cost}</p>
+          <p>{data.sales}</p>
         </div>
       </div>
-      <div className="sinhnhat">
-        <img src="" alt="">
-        <span>Phòng vip 2</span>
-        <div className="price">
-          <p style={{textDecoration:"through-line"}}>45.000.000Vnđ</p>
-          <p>35.000.000Vnđ</p>
-        </div>
-      </div>
-      <div className="sinhnhat">
-        <img src="" alt="">
-        <span>Phòng trung bình</span>
-        <div className="price">
-          <p style={{textDecoration:"through-line"}}>40.000.000Vnđ</p>
-          <p>30.000.000Vnđ</p>
-        </div>
-      </div>
-      <div className="sinhnhat">
-        <img src="" alt="">
-        <span>Phòng thường</span>
-        <div className="price">
-          <p style={{textDecoration:"through-line"}}>15.000.000Vnđ</p>
-          <p>6.000.000Vnđ</p>
-        </div>
-      </div>
+    )}
     </div>
     <div className="giatiens">
+      {data.tieccuois.map((kind) =>
       <div className="giatien">
-        <img src="" alt="">
-        <span>Phòng Vip</span>
+        <img src={images.gt1} alt="">
+        <span>Phòng {data.classify}</span>
         <div className="price">
-          <p style={{textDecoration:"through-line"}}>15.000.000Vnđ</p>
-          <p>6.000.000Vnđ</p>
+          <p style={{textDecoration:"through-line"}}>{data.cost}</p>
+          <p>{data.sales}</p>
         </div>
       </div>
-      <div className="giatien">
-        <img src="" alt="">
-        <span>Phòng Vip 2</span>
-        <div className="price">
-          <p style={{textDecoration:"through-line"}}>15.000.000Vnđ</p>
-          <p>6.000.000Vnđ</p>
-        </div>
-      </div>
-      <div className="giatien">
-        <img src="" alt="">
-        <span>Phòng trung bình</span>
-        <div className="price">
-          <p style={{textDecoration:"through-line"}}>15.000.000Vnđ</p>
-          <p>6.000.000Vnđ</p>
-        </div>
-      </div>
-      <div className="giatien">
-        <img src="" alt="">
-        <span>Phòng thường</span>
-        <div className="price">
-          <p style={{textDecoration:"through-line"}}>15.000.000Vnđ</p>
-          <p>6.000.000Vnđ</p>
-        </div>
-      </div>
+    )}
     </div>
+    <div className="giatiens">
+      {data.tieccuois.map((kind) =>
+      <div className="giatien">
+        <img src={images.gt1} alt="">
+        <span>Phòng {data.classify}</span>
+        <div className="price">
+          <p style={{textDecoration:"through-line"}}>{data.cost}</p>
+          <p>{data.sales}</p>
+        </div>
+      </div>
+    )}
     </div>
-  )
-  
-
+    <div className="daythangs">
+      {data.tieccuois.map((kind) =>
+      <div className="daythang">
+        <img src={images.dt1} alt="">
+        <span>Phòng {data.classify}</span>
+        <div className="price">
+          <p style={{textDecoration:"through-line"}}>{data.cost}</p>
+          <p>{data.sales}</p>
+        </div>
+      </div>
+      )}
+    </div>
+    <div className="mungthos">
+      {data.tieccuois.map((kind) =>
+      <div className="mungtho">
+        <img src={images.gt1} alt="">
+        <span>Phòng {data.classify}</span>
+        <div className="price">
+          <p style={{textDecoration:"through-line"}}>{data.cost}</p>
+          <p>{data.sales}</p>
+        </div>
+      </div>
+      )}
+    </div>
+    <div className="ngoaitrois">
+      {data.tieccuois.map((kind) =>
+      <div className="ngoaitroi">
+        <img src={images.gt1} alt="">
+        <span>Phòng {data.classify}</span>
+        <div className="price">
+          <p style={{textDecoration:"through-line"}}>{data.cost}</p>
+          <p>{data.sales}</p>
+        </div>
+      </div>
+    )}
+    </div>    
+    </div>
+)
 }
