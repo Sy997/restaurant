@@ -2,6 +2,7 @@ import React from "react"
 import Navbar from "../Navbar/Navbar"
 import images from './images'
 import data from './data'
+import './details.css'
 
 const Details = () => {
   rerurn (
